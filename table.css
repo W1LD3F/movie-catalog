@@ -1,0 +1,66 @@
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(3n) {
+    background-color: bisque;
+}
+
+tr:nth-child(3n-1) {
+    background-color: lightgrey;
+}
+
+tr:nth-child(3n-2) {
+    background-color: darkseagreen;
+}
+
+.countLines {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.countLines tr td:first-child:before {
+    position: relative;
+    color: black;
+}
+
+.table-btn {
+    cursor: pointer;
+    margin: 4px 0;
+}
+
+.edit-btn {
+    color: dodgerblue;
+}
+
+.remove-btn {
+    color: red;
+}
+
+.submit-btn {
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 auto;
+    background-color: #4bb34b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-btn-red {
+    background-color: red;
+}
+
+.submit-btn-wrapper {
+    margin: 5px;
+}

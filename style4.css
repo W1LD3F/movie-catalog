@@ -1,0 +1,18 @@
+.blocks {
+    display: flex;
+}
+
+.lawyer {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+.string {
+    clear: both;
+    margin: 10px;
+}
+
